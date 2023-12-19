@@ -2,10 +2,9 @@ import React from 'react'
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
-      <div>这是一个layout</div>
-      <div>{children}</div>
-    </>
+    <div className="h-full bg-slate-100">
+      <main className="pt-40 pb-20 bg-slate-100">{children}</main>
+    </div>
   )
 }
 

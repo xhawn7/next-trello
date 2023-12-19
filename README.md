@@ -26,6 +26,7 @@ layout --> 一个文件夹只能有一个 layout，表示这个文件夹的所�
 
 - Tailwind CSS: css 框架
 - Shadcn UI: Radix UI(组件库) + Tailwind CSS 构建的组件合集
+- lucide-react: next 自带 icon 库
 </details>
 
 <details>
