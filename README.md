@@ -32,6 +32,8 @@ layout --> 一个文件夹只能有一个 layout，表示这个文件夹的所�
 <details>
 <summary>不同 branch 说明</summary>
 init-next-app:初始化next项目
+home:home主页
+sign-up: 登陆注册鉴权
 </details>
 
 ## 整个项目节奏
