@@ -2,8 +2,8 @@
 
 ```js
 npx create-next-app@latest // 创建 next 项目
-npx shadcn-ui@latest init  // 创建ui库
-npx shadcn-ui@latest add button // 新增button
+npx shadcn-ui@latest init  // ui库
+npx shadcn-ui@latest add button skeleton accordion separator sheet// ui组件
 ```
 
 ### 说明
@@ -24,9 +24,12 @@ layout --> 一个文件夹只能有一个 layout，表示这个文件夹的所�
 <details>
 <summary>工具说明</summary>
 
-- Tailwind CSS: css 框架
-- Shadcn UI: Radix UI(组件库) + Tailwind CSS 构建的组件合集
-- lucide-react: next 自带 icon 库
+- css 库：tailwind
+
+* ui 库：shadcn-ui + lucide-react(next 自带)
+* 用户鉴权：clerk
+* 状态管理：zustand
+* hooks：usehooks-ts
 </details>
 
 <details>
@@ -34,6 +37,7 @@ layout --> 一个文件夹只能有一个 layout，表示这个文件夹的所�
 init-next-app:初始化next项目
 home:home主页
 sign-up: 登陆注册鉴权
+org-sidebar: org页面的sidebar
 </details>
 
 ## 整个项目节奏

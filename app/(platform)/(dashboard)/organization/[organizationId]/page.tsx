@@ -1,7 +1,7 @@
 import React from 'react'
 
 const page = () => {
-  return <div>organization id</div>
+  return <div>organization</div>
 }
 
 export default page
