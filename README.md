@@ -3,7 +3,7 @@
 ```js
 npx create-next-app@latest // 创建 next 项目
 npx shadcn-ui@latest init  // ui库
-npx shadcn-ui@latest add button skeleton accordion separator sheet// ui组件
+npx shadcn-ui@latest add button skeleton accordion separator sheet input// ui组件
 ```
 
 ### 说明
