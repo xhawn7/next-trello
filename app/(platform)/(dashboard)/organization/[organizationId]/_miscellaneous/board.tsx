@@ -1,5 +1,6 @@
 import { deleted } from '@/actions/delete-board'
 import { Button } from '@/components/ui/button'
+
 interface BoardProps {
   title: string
   id: string
