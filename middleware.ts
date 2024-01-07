@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import { authMiddleware, redirectToSignIn } from '@clerk/nextjs'
 
 export default authMiddleware({
-  publicRoutes: ['/'],
+  publicRoutes: ['/', '/api/webhook'],
   afterAuth(auth, req) {
     // 用户登陆了但访问了主页,跳到org的主页
     // TODO: BUG,用户登陆了但访问非主页的地址会报404
