@@ -35,7 +35,6 @@ export const NavItem = ({
 }: NavItemProps) => {
   const router = useRouter()
   const pathname = usePathname()
-  console.log(pathname)
   const routes = [
     {
       label: 'Boards',

@@ -13,7 +13,7 @@ import {
 } from '@/components/ui/popover'
 import { useAction } from '@/hooks/use-action'
 import { Button } from '@/components/ui/button'
-import { createBoard } from '@/actions/create-board2'
+import { createBoard } from '@/actions/create-board'
 // import { useProModal } from "@/hooks/use-pro-modal";
 
 import { FormInput } from './form-input'
