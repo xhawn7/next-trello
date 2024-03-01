@@ -9,7 +9,6 @@ import { checkSubscription } from '@/lib/subscription'
 
 const ActivityPage = async () => {
   const isPro = await checkSubscription()
-  console.log(isPro)
   return (
     <div className="w-full">
       <Info isPro={isPro} />

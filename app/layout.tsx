@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
-    // TODO: 这个是什么？
     template: `%s | ${siteConfig.name}`
   },
   description: siteConfig.description,

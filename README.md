@@ -13,7 +13,7 @@ npx shadcn-ui@latest add avatar dialog textarea popover tooltip label button ske
 name --> 路由名
 [name] --> 动态路由
 （name）--> 不会访问，用于管理路由
-\_component --> 不会访问
+_component --> 不会访问
 </details>
 
 <details>
@@ -22,14 +22,23 @@ layout --> 一个文件夹只能有一个 layout，表示这个文件夹的所�
 </details>
 
 <details>
-<summary>工具说明</summary>
+<summary>库说明</summary>
 
 - css 库：tailwind
+- ui 库：lucide-react(next 自带)、shadcn-ui(通用组件)、sonner（toast,message）、hello-pangea/dnd(拖拽)、
+- 用户登陆鉴权：clerk
+- ~~用户支付订阅管理: stripe~~
+- ORM：prisma
+- 云数据库：~~原来用的 planetscale=>garbage🤬 限制中国用户注册还把之前的数据封了~~ 目前用的：Neon
+- 客户端状态管理库：zustand
+- 服务端状态管理库：TanStack Query
+- hooks 库：usehooks-ts
+- js 工具库：lodash
+- 类型验证库: zod
+- 时间格式库: date-fns
+- 图片库: unsplash
+- 网站托管: vercel
 
-* ui 库：shadcn-ui + lucide-react(next 自带)
-* 用户鉴权：clerk
-* 状态管理：zustand
-* hooks：usehooks-ts
 </details>
 
 <details>

@@ -18,7 +18,6 @@ const textFont = Poppins({
 const page = () => {
   return (
     <div className="flex items-center justify-center flex-col">
-      <div className={cn('text-lg', 'text-amber-100')}>测试</div>
       <div
         className={cn(
           'flex items-center justify-center flex-col',
